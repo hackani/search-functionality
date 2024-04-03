@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searching User</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-input">
+            <label for="search">Search User : </label>
+            <input type="search" id="search" data-search>
+        </div>
+        <div class="line"></div>
+        <div class="card-container" data-user-cards-container>
+            <template data-user-template>
+                <div class="card">
+                    <div class="user-name" data-name></div>
+                    <div class="user-email" data-email></div>
+                </div>
+            </template>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
